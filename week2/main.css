@@ -68,17 +68,11 @@ header{
     height: 400px;
     justify-content:space-between ; 
   }
-   
-    
-
+  
   /* for phones */
   @media only screen and (max-width: 600px) {
     #grid-floats > .grid-item {
       background:pink;
-    }
-   
-    body{
-      background-color: magenta;
     }
     #grid-floats > .grid-item:first-child{
       width: 90%;
@@ -113,26 +107,20 @@ header{
     #grid-floats >.grid-item {
       background-color: white;
     }
-    body{
-      background-color: black;
-    }
     #grid-floats > .grid-item:first-child{
       width: 46%;
       margin: 10px 6px;
-      background-color: yellow;
-          
+      background-color: yellow;         
     }
     #grid-floats > .grid-item:nth-child(2){
       width: 46%;
       background-color: yellow;
-      margin: 10px 6px;
-          
+      margin: 10px 6px;         
     }
     #grid-floats > .grid-item{
       width: 30%;
       margin: 10px 6px;
-      background-color: yellow;
-          
+      background-color: yellow;         
     }
     #grid-floats:after {
       content: "";
@@ -159,9 +147,6 @@ header{
   @media only screen and (min-width: 768px) {
     #grid-floats >.grid-item {
       background-color: yellow;
-    }
-    body{
-      background-color:lemonchiffon;
     }
     #grid-floats > .grid-item:first-child{
       width: 45%;
